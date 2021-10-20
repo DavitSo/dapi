@@ -77,7 +77,7 @@ async function main() {
     process.exit(1);
   });
 
-  await tenderDashWsClient.connect();
+  //await tenderDashWsClient.connect();
 
   const blockchainListener = new BlockchainListener(tenderDashWsClient);
   blockchainListener.start();
