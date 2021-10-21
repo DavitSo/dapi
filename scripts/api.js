@@ -11,7 +11,7 @@ const {
 const {
   getCoreDefinition,
   getPlatformDefinition,
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const DashPlatformProtocol = require('@dashevo/dpp');
 

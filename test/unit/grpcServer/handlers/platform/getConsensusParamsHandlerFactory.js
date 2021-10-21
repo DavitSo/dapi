@@ -4,7 +4,7 @@ const {
     ConsensusParamsBlock,
     ConsensusParamsEvidence,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 const {
   server: {
     error: {

@@ -13,7 +13,7 @@ const {
   v0: {
     BroadcastTransactionResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const broadcastTransactionHandlerFactory = require('../../../../../lib/grpcServer/handlers/core/broadcastTransactionHandlerFactory');
 

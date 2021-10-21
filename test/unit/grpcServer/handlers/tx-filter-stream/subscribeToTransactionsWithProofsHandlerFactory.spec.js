@@ -24,7 +24,7 @@ const {
     RawTransactions,
     BloomFilter,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('dapi-grpc');
 
 const { BloomFilter: CoreBloomFilter } = require('@dashevo/dashcore-lib');
 
