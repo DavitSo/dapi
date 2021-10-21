@@ -27,7 +27,7 @@
     "all": true
   },
   "dependencies": {
-    "dapi-grpc": "git@github.com:DavitSo/dapi-grpc.git#v1.0.2-dev",
+    "dapi-grpc": "git@github.com:DavitSo/dapi-grpc.git#v1.0.3-dev",
     "@dashevo/dashcore-lib": "~0.19.26",
     "@dashevo/dashd-rpc": "^2.3.0",
     "@dashevo/dpp": "~0.21.0",
