@@ -46,6 +46,7 @@ module.exports = {
   async generateToAddress(blocksNumber, address) { return new Array(blocksNumber); },
   async sendRawTransition(rawStateTransition) { return 'tsid'; },
   async getAddressBalance(address) { return 100; },
+  async getTransactionFee(address, amount) { return 0.0044; },
   // Todo: not yet final spec so it may change
   async getQuorum() {
     return {
