@@ -4,6 +4,7 @@
     "node": true
   },
   "rules": {
+    "max-len": ["error", {"code":  120}],
     "no-plusplus": 0,
     "no-await-in-loop": "off",
     "no-restricted-syntax": [
